@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!--
+   asdad.plist
+   facebookLogin
+
+   Created by mac on 3/16/17.
+   Copyright (c) 2017 mac. All rights reserved.
+-->
+<plist version="1.0">
+    <dict>
+        <key>CLIENT_ID</key>
+        <string>373956910594-3kvefc5f8o361rdp30dmi7sf8n1bkeqo.apps.googleusercontent.com</string>
+        <key>REVERSED_CLIENT_ID</key>
+        <string>com.googleusercontent.apps.373956910594-3kvefc5f8o361rdp30dmi7sf8n1bkeqo</string>
+        <key>PLIST_VERSION</key>
+        <string>1</string>
+        <key>BUNDLE_ID</key>
+        <string>com.damneed.cleanplacesios</string>
+        <key>PROJECT_ID</key>
+        <string>cleanplacesios</string>
+        <key>IS_ADS_ENABLED</key>
+        <false/>
+        <key>IS_ANALYTICS_ENABLED</key>
+        <false/>
+        <key>IS_APPINVITE_ENABLED</key>
+        <false/>
+        <key>IS_GCM_ENABLED</key>
+        <false/>
+        <key>IS_SIGNIN_ENABLED</key>
+        <true/>
+        <key>GOOGLE_APP_ID</key>
+        <string>1:373956910594:ios:737c7c4c452a31df</string>
+    </dict>
+</plist>
