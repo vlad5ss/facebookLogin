@@ -12,4 +12,7 @@ pod 'GooglePlaces'
 pod 'GooglePlacePicker'
 pod 'GoogleMaps'
 pod ‘AFNetworking’
+pod 'Alamofire'
+pod 'SwiftyJSON'
+
 end

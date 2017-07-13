@@ -25,10 +25,12 @@
 		0413A7351E7ADBDA00F3E1E8 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0413A7321E7ADBDA00F3E1E8 /* GTMSessionFetcher.framework */; };
 		0413A7371E7ADC4B00F3E1E8 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0413A7361E7ADC4B00F3E1E8 /* GoogleService-Info.plist */; };
 		0413A73F1E7C1EFC00F3E1E8 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0413A73E1E7C1EFC00F3E1E8 /* MapViewController.swift */; };
+		048C88881EE085A200779636 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C88871EE085A200779636 /* Places.swift */; };
+		048C888A1EE085EB00779636 /* DataPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = 048C88891EE085EB00779636 /* DataPlaces.swift */; };
+		048C888D1EE08B3000779636 /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048C888B1EE08B3000779636 /* Alamofire.framework */; };
+		048C888E1EE08B3000779636 /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048C888C1EE08B3000779636 /* SwiftyJSON.framework */; };
 		04C8FD8D1E9BE11D0001C1CA /* FileFullImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8FD8C1E9BE11D0001C1CA /* FileFullImageViewController.swift */; };
 		04C8FD8F1E9BE3A10001C1CA /* PhotoMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8FD8E1E9BE3A10001C1CA /* PhotoMapViewController.swift */; };
-		04C8FD911E9C09810001C1CA /* LocationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8FD901E9C09810001C1CA /* LocationsViewController.swift */; };
-		04C8FD941E9C3C680001C1CA /* LocationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C8FD931E9C3C680001C1CA /* LocationCell.swift */; };
 		04C8FD961E9C3D360001C1CA /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04C8FD951E9C3D360001C1CA /* AFNetworking.framework */; };
 		FDF33CC2C7EEB9D65BB2AE53 /* Pods_facebookLogin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B77F3125D4AC8EF4F77AE871 /* Pods_facebookLogin.framework */; };
 /* End PBXBuildFile section */
@@ -59,10 +61,12 @@
 		0413A7361E7ADC4B00F3E1E8 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		0413A7381E7ADD2B00F3E1E8 /* facebookLogin-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "facebookLogin-Bridging-Header.h"; sourceTree = "<group>"; };
 		0413A73E1E7C1EFC00F3E1E8 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		048C88871EE085A200779636 /* Places.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		048C88891EE085EB00779636 /* DataPlaces.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataPlaces.swift; sourceTree = "<group>"; };
+		048C888B1EE08B3000779636 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "../../../Library/Developer/Xcode/DerivedData/facebookLogin-fchccmbxredfcngrobaqhxzemtfi/Build/Products/Debug-iphonesimulator/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
+		048C888C1EE08B3000779636 /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = "../../../Library/Developer/Xcode/DerivedData/facebookLogin-fchccmbxredfcngrobaqhxzemtfi/Build/Products/Debug-iphonesimulator/SwiftyJSON/SwiftyJSON.framework"; sourceTree = "<group>"; };
 		04C8FD8C1E9BE11D0001C1CA /* FileFullImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileFullImageViewController.swift; sourceTree = "<group>"; };
 		04C8FD8E1E9BE3A10001C1CA /* PhotoMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoMapViewController.swift; sourceTree = "<group>"; };
-		04C8FD901E9C09810001C1CA /* LocationsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsViewController.swift; sourceTree = "<group>"; };
-		04C8FD931E9C3C680001C1CA /* LocationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationCell.swift; sourceTree = "<group>"; };
 		04C8FD951E9C3D360001C1CA /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "Pods/../build/Debug-iphoneos/AFNetworking/AFNetworking.framework"; sourceTree = "<group>"; };
 		0F2023E0AB8BE712E45C41BD /* Pods-facebookLogin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookLogin.release.xcconfig"; path = "Pods/Target Support Files/Pods-facebookLogin/Pods-facebookLogin.release.xcconfig"; sourceTree = "<group>"; };
 		3EAD825BB9DD6CE35F29A101 /* Pods-facebookLogin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-facebookLogin.debug.xcconfig"; path = "Pods/Target Support Files/Pods-facebookLogin/Pods-facebookLogin.debug.xcconfig"; sourceTree = "<group>"; };
@@ -74,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048C888D1EE08B3000779636 /* Alamofire.framework in Frameworks */,
+				048C888E1EE08B3000779636 /* SwiftyJSON.framework in Frameworks */,
 				04C8FD961E9C3D360001C1CA /* AFNetworking.framework in Frameworks */,
 				0413A7331E7ADBDA00F3E1E8 /* GoogleToolboxForMac.framework in Frameworks */,
 				0413A7341E7ADBDA00F3E1E8 /* GTMOAuth2.framework in Frameworks */,
@@ -96,6 +102,8 @@
 		0150C42FC70409215D513612 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				048C888B1EE08B3000779636 /* Alamofire.framework */,
+				048C888C1EE08B3000779636 /* SwiftyJSON.framework */,
 				04C8FD951E9C3D360001C1CA /* AFNetworking.framework */,
 				0413A7301E7ADBDA00F3E1E8 /* GoogleToolboxForMac.framework */,
 				0413A7311E7ADBDA00F3E1E8 /* GTMOAuth2.framework */,
@@ -143,7 +151,6 @@
 				0413A7061E7ACE1000F3E1E8 /* ViewController.swift */,
 				04C8FD8C1E9BE11D0001C1CA /* FileFullImageViewController.swift */,
 				04C8FD8E1E9BE3A10001C1CA /* PhotoMapViewController.swift */,
-				04C8FD901E9C09810001C1CA /* LocationsViewController.swift */,
 				04C8FD921E9C3C480001C1CA /* views */,
 				04C8FD8B1E9BE0DA0001C1CA /* Detail */,
 				0413A7081E7ACE1000F3E1E8 /* Main.storyboard */,
@@ -174,7 +181,8 @@
 		04C8FD921E9C3C480001C1CA /* views */ = {
 			isa = PBXGroup;
 			children = (
-				04C8FD931E9C3C680001C1CA /* LocationCell.swift */,
+				048C88871EE085A200779636 /* Places.swift */,
+				048C88891EE085EB00779636 /* DataPlaces.swift */,
 			);
 			name = views;
 			sourceTree = "<group>";
@@ -319,13 +327,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04C8FD911E9C09810001C1CA /* LocationsViewController.swift in Sources */,
+				048C888A1EE085EB00779636 /* DataPlaces.swift in Sources */,
 				04C8FD8F1E9BE3A10001C1CA /* PhotoMapViewController.swift in Sources */,
 				0413A7071E7ACE1000F3E1E8 /* ViewController.swift in Sources */,
 				0413A7051E7ACE1000F3E1E8 /* AppDelegate.swift in Sources */,
-				04C8FD941E9C3C680001C1CA /* LocationCell.swift in Sources */,
 				04C8FD8D1E9BE11D0001C1CA /* FileFullImageViewController.swift in Sources */,
 				0413A73F1E7C1EFC00F3E1E8 /* MapViewController.swift in Sources */,
+				048C88881EE085A200779636 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
