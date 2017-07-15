@@ -52,7 +52,7 @@ class ViewController: UIViewController  , GIDSignInUIDelegate, GIDSignInDelegate
             
             if error != nil
             {
-                print("error occured with login \(error?.localizedDescription)")
+                print("error occured with login \(String(describing: error?.localizedDescription))")
             }
                 
             else if (result?.isCancelled)!
@@ -70,7 +70,7 @@ class ViewController: UIViewController  , GIDSignInUIDelegate, GIDSignInDelegate
                         
                         if error != nil
                         {
-                            print("error occured \(error?.localizedDescription)")
+                            print("error occured \(String(describing: error?.localizedDescription))")
                         }
                         else if userResult != nil
                         {
@@ -134,7 +134,7 @@ class ViewController: UIViewController  , GIDSignInUIDelegate, GIDSignInDelegate
             NotificationCenter.default.post(
                 name: Notification.Name(rawValue: "ToggleAuthUINotification"),
                 object: nil,
-                userInfo: ["statusText": "Signed in user:\n\(fullName)"])
+                userInfo: ["statusText": "Signed in user:\n\(String(describing: fullName))"])
              self.performSegue(withIdentifier: "showMapGoogle", sender: self)
             
             // [END_EXCLUDE]
